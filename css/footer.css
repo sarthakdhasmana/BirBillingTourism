@@ -1,0 +1,80 @@
+/* //////////footer Styling /////////////*/
+.footerSection {
+    background-color: #052838;
+    padding: 3em 0em 1.5em;
+}
+
+.footerHeading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contact_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phoneNo,
+.mail {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #E9E7E7;
+}
+
+.mail {
+    margin-left: 15px;
+}
+
+.address {
+    margin: 15px 0px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #E9E7E7;
+}
+
+.footerIcons {
+    margin: auto;
+    width: 10em;
+    display: flex;
+    align-items: center;
+}
+
+.middle {
+    margin: 0px 20px;
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  MEDIA QUERRIES <<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*###################### 567-1Screen ####################*/
+@media screen and (max-width:567px) {
+    .footerSection {
+        padding: 3em 16px 1.5em;
+    }
+
+    .contact_details {
+        flex-direction: column;
+    }
+
+    .footerHeading {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .phoneNo,
+    .mail,
+    .address {
+        font-size: 14px;
+    }
+}

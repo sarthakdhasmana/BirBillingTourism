@@ -1,0 +1,1008 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*////////////////// header Styling ////////////////////*/
+.headerHeroWrapper {
+    background: url('/img/heroSection/Hillbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.headPadding {
+    padding: 3em 11em;
+}
+
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD124;
+    padding: 8px 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.headerIcon {
+    margin-right: 5px;
+}
+
+header {
+    width: 11em;
+    margin-left: auto;
+}
+
+header a {
+    color: #052838;
+    font-weight: 600;
+}
+
+.heroSection {
+    padding: 10em 2em;
+}
+
+.headerButton_contact {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+
+/*////////////////// hero Styling ////////////////////*/
+.pageBoldHeading {
+    /* width: 13.6em; */
+    font-weight: 800;
+    font-size: 7em;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 22px;
+    background: linear-gradient(177.14deg, #FFFFFF 2.38%, rgba(255, 255, 255, 0.41) 132.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headingDescription {
+    width: 70em;
+    margin: auto;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #F5F5F5;
+    padding: 2em 0em 2em 0em;
+}
+
+.knowMoreButton {
+    transition: 700ms;
+    cursor: pointer;
+    text-align: center;
+    background-color: #FFD124;
+    padding: 10px 20px;
+    width: 11em;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.knowMoreButton p {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    color: #052838;
+}
+
+
+/*////////////////// amenities Styling ////////////////////*/
+.amenitiesSection {
+    padding: 3em 8em 6em;
+}
+
+.amenitiesHead {
+    padding-bottom: 6em;
+}
+
+.amenitiesText {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #052838;
+    margin-bottom: 10px;
+}
+
+.amenitiesDesc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #386275;
+}
+
+.amenitiesbox {
+    width: 83em;
+    margin: auto;
+}
+
+.amenities {
+    text-align: center;
+}
+
+.amenities_icon {
+    padding-bottom: 15px;
+}
+
+.amenitiesTitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #052838;
+    margin-bottom: 10px;
+}
+
+.amenitiesTitle_desc {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #386275;
+}
+
+.bottomAmenities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10em;
+    width: 61em;
+    margin: auto;
+}
+
+.topAmenities {
+    padding-bottom: 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3.5em;
+}
+
+.hiddenforlarge {
+    display: none;
+}
+
+/*////////////////// quote Styling ////////////////////*/
+.quoteSection {
+    background-color: #052838;
+    height: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteText {
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 109px;
+    text-align: center;
+    letter-spacing: 16px;
+    color: #FFFFFF;
+}
+
+
+/*////////////////// about Styling ////////////////////*/
+.aboutSection {
+    padding: 5em 10em 5em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutTitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #052838;
+}
+
+.aboutLeft {
+    width: 48%;
+}
+
+.aboutImg {
+    width: 100%;
+}
+
+.aboutTextContent {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #386275;
+}
+
+.aboutRight {
+    width: 40%;
+}
+
+.topMar {
+    margin-top: 0.5em;
+}
+
+.spacebtw {
+    margin-top: 1em;
+}
+
+/*////////////////// about Styling ////////////////////*/
+.benefitsSection {
+    padding: 5em 0em 5em 12em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefitsLeft {
+    width: 40%;
+}
+
+.benefitsRight {
+    width: 48%;
+}
+
+.vehicleImage {
+    width: 100%;
+}
+
+.benefits {
+    display: flex;
+    margin-bottom: 1.8em;
+}
+
+.benefits_textContent {
+    margin-left: 18px;
+}
+
+.benefitsHeading {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    letter-spacing: 5px;
+    color: #052838;
+    margin-bottom: 1em;
+}
+
+.benefitsTitle {
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #052838;
+}
+
+.benefitsDesc {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #386275;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  MEDIA QUERRIES <<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*###################### 1600-1400PX ####################*/
+@media (min-width:1400px) and (max-width:1600px) {
+    .headPadding {
+        padding: 3em 3em;
+    }
+
+    .heroSection {
+        padding: 4em 2em;
+    }
+
+    .pageBoldHeading {
+        font-size: 5.8em;
+    }
+
+    .headingDescription {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .amenitiesSection {
+        padding: 3em 5em 6em;
+    }
+
+    .amenitiesbox {
+        width: auto;
+    }
+
+    .aboutSection {
+        padding: 5em 6em 5em 0em;
+    }
+
+    .aboutLeft {
+        width: 51%;
+    }
+
+    .aboutRight {
+        width: 44%;
+    }
+
+    .benefitsSection {
+        padding: 5em 0em 5em 8em;
+    }
+
+    .benefitsLeft {
+        width: 45%;
+    }
+
+    .benefitsRight {
+        width: 51%;
+    }
+}
+
+/*###################### 1399-1200PX ####################*/
+@media (min-width:1200px) and (max-width:1399px) {
+    .headPadding {
+        padding: 3em 3em;
+    }
+
+    .heroSection {
+        padding: 4em 3em;
+    }
+
+    .pageBoldHeading {
+        font-size: 6.8em;
+        letter-spacing: 40px;
+    }
+
+    .headingDescription {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .amenitiesSection {
+        padding: 3em 3em 6em;
+    }
+
+    .amenitiesbox {
+        width: auto;
+    }
+
+    .topAmenities {
+        grid-column-gap: 18px;
+    }
+
+    .bottomAmenities {
+        grid-column-gap: 2em;
+    }
+
+    .aboutSection {
+        padding: 4em 3em 4em 0em;
+    }
+
+    .aboutLeft {
+        width: 54%;
+    }
+
+    .aboutImg {
+        height: 30em;
+    }
+
+    .topMar {
+        margin-top: 0em;
+    }
+
+    .aboutTitle {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .aboutTextContent {
+        font-size: 16px;
+    }
+
+    .aboutRight {
+        width: 44%;
+    }
+
+    .benefitsSection {
+        padding: 2em 0em 5em 3em;
+    }
+
+    .benefitsHeading {
+        font-size: 35px;
+    }
+
+    .benefitsLeft {
+        width: 47%;
+    }
+
+    .benefitsDesc {
+        font-size: 16px;
+    }
+
+    .vehicleImage {
+        height: 30em;
+        object-fit: cover;
+    }
+
+    .benefits {
+        margin-bottom: 1.4em;
+    }
+
+    .benefitsRight {
+        width: 51%;
+    }
+}
+
+/*###################### 1199-992PX ####################*/
+@media (min-width:992px) and (max-width:1199px) {
+    .headPadding {
+        padding: 3em 3em;
+    }
+
+    .heroSection {
+        padding: 4em 3em;
+    }
+
+    .pageBoldHeading {
+        font-size: 6.8em;
+        letter-spacing: 40px;
+    }
+
+    .headingDescription {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .amenitiesSection {
+        padding: 3em 3em 6em;
+    }
+
+    .amenitiesbox {
+        width: auto;
+    }
+
+    .topAmenities {
+        grid-column-gap: 18px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 50px;
+    }
+
+    .bottomAmenities {
+        grid-column-gap: 2em;
+        grid-template-columns: 1fr;
+        width: 50%;
+    }
+
+    .aboutSection {
+        padding: 4em 3em;
+        flex-direction: column;
+    }
+
+    .aboutLeft {
+        width: 100%;
+    }
+
+    .aboutImg {
+        height: 30em;
+        object-fit: cover;
+    }
+
+    .topMar {
+        margin-top: 0em;
+    }
+
+    .aboutTitle {
+        font-size: 3em;
+        text-align: center;
+        margin: 1.3em 0em 1.5em;
+    }
+
+    .aboutTextContent {
+        font-size: 16px;
+    }
+
+    .aboutRight {
+        width: 100%;
+    }
+
+    .benefitsSection {
+        padding: 2em 3em 4em;
+        flex-direction: column-reverse;
+    }
+
+    .amenitiesDesc span {
+        display: none;
+    }
+
+    .benefitsHeading {
+        font-size: 3em;
+        text-align: center;
+        margin: 1.3em 0em 1.5em;
+    }
+
+    .benefitsLeft {
+        width: 100%;
+    }
+
+    .benefitsDesc {
+        font-size: 16px;
+    }
+
+    .vehicleImage {
+        height: 30em;
+        object-fit: cover;
+    }
+
+    .benefits {
+        margin-bottom: 1.4em;
+    }
+
+    .hiddenforlarge {
+        display: block;
+    }
+
+    .hiddenforsmall {
+        display: none;
+    }
+
+    .quoteText {
+        font-size: 80px;
+    }
+
+    .benefitsRight {
+        width: 100%;
+    }
+}
+
+/*###################### 991-767PX ####################*/
+@media (min-width:767px) and (max-width:991px) {
+    .headPadding {
+        padding: 3em 2.5em;
+    }
+
+    .heroSection {
+        padding: 4em 2.5em;
+    }
+
+    .pageBoldHeading {
+        font-size: 5.8em;
+        letter-spacing: 20px;
+    }
+
+    .headingDescription {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .amenitiesSection {
+        padding: 3em 2.5em 6em;
+    }
+
+    .amenitiesbox {
+        width: auto;
+    }
+
+    .topAmenities {
+        grid-column-gap: 18px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 50px;
+    }
+
+    .bottomAmenities {
+        grid-column-gap: 2em;
+        grid-template-columns: 1fr;
+        width: 50%;
+    }
+
+    .aboutSection {
+        padding: 4em 2.5em;
+        flex-direction: column;
+    }
+
+    .aboutLeft {
+        width: 100%;
+    }
+
+    .aboutImg {
+        height: 30em;
+        object-fit: cover;
+    }
+
+    .topMar {
+        margin-top: 0em;
+    }
+
+    .aboutTitle {
+        font-size: 3em;
+        text-align: center;
+        margin: 1em 0em 1em;
+    }
+
+    .aboutTextContent {
+        font-size: 16px;
+    }
+
+    .aboutRight {
+        width: 100%;
+    }
+
+    .benefitsSection {
+        padding: 2em 2.5em 4em;
+        flex-direction: column-reverse;
+    }
+
+    .amenitiesDesc span {
+        display: none;
+    }
+
+    .benefitsHeading {
+        font-size: 3em;
+        text-align: center;
+        margin: 1em 0em 1.2em;
+    }
+
+    .benefitsLeft {
+        width: 100%;
+    }
+
+    .benefitsDesc {
+        font-size: 16px;
+    }
+
+    .vehicleImage {
+        height: 30em;
+        object-fit: cover;
+    }
+
+    .benefits {
+        margin-bottom: 1.4em;
+    }
+
+    .hiddenforlarge {
+        display: block;
+    }
+
+    .hiddenforsmall {
+        display: none;
+    }
+
+    .quoteText {
+        font-size: 80px;
+    }
+
+    .benefitsRight {
+        width: 100%;
+    }
+}
+
+/*###################### 766-568PX ####################*/
+@media (min-width:568px) and (max-width:766px) {
+    .headPadding {
+        padding: 2em 2em 1em;
+    }
+
+    .headerButton_contact {
+        font-size: 16px;
+    }
+
+    .knowMoreButton p {
+        font-size: 18px;
+    }
+
+    .knowMoreButton {
+        padding: 8px 0px;
+        width: 10em;
+    }
+
+    .headerButton {
+        padding: 8px 0px;
+        width: 10em;
+        margin-left: auto;
+    }
+
+    .headerButton_contact {
+        font-size: 18px;
+    }
+
+    .heroSection {
+        padding: 8em 2em 4em;
+    }
+
+    .pageBoldHeading {
+        font-size: 4.4em;
+        line-height: 75px;
+        letter-spacing: 12px;
+    }
+
+    .headingDescription {
+        width: auto;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .hiddenforlarge {
+        display: none;
+    }
+
+    .amenitiesSection {
+        padding: 1em 2em 3.8em;
+    }
+
+    .amenitiesText {
+        font-size: 38px;
+    }
+
+    .amenitiesDesc {
+        font-size: 16px;
+    }
+
+    .amenitiesDesc span {
+        display: none;
+    }
+
+    .amenitiesHead {
+        padding-bottom: 4em;
+    }
+
+    .topAmenities {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
+        padding-bottom: 2em;
+    }
+
+    .bottomAmenities {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10em;
+        width: auto;
+        grid-row-gap: 2em;
+    }
+
+    .amenitiesbox {
+        width: auto;
+    }
+
+    .amenities_icon {
+        padding-bottom: 8px;
+        width: 60px;
+    }
+
+    .amenitiesTitle_desc {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .amenitiesTitle {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .quoteText {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .quoteSection {
+        padding: 0px 15px;
+    }
+
+    .aboutSection {
+        padding: 2em 2em;
+        flex-direction: column;
+    }
+
+    .aboutTitle {
+        margin: 25px 0px;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .aboutLeft,
+    .aboutRight,
+    .benefitsLeft,
+    .benefitsRight {
+        width: 100%;
+    }
+
+    .aboutTextContent {
+        font-size: 17px;
+    }
+
+    .benefitsSection {
+        padding: 2em 2em;
+        flex-direction: column-reverse;
+    }
+
+    .benefitsHeading {
+        font-size: 37px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .benefitsTitle {
+        font-size: 20px;
+    }
+
+    .benefits {
+        margin-bottom: 2em;
+        align-items: center;
+    }
+
+    .benefitsDesc {
+        font-size: 16px;
+    }
+}
+
+/*###################### 567-1Screen ####################*/
+@media screen and (max-width:567px) {
+
+    .headPadding {
+        padding: 2em 16px 1em;
+    }
+
+    .headerButton_contact {
+        font-size: 16px;
+    }
+
+    .knowMoreButton p {
+        font-size: 16px;
+    }
+
+    .knowMoreButton {
+        padding: 6px 0px;
+        width: 9em;
+    }
+
+    .headerButton {
+        padding: 6px 0px;
+        width: 8em;
+        margin-left: auto;
+    }
+
+    .headerButton_contact {
+        font-size: 14px;
+    }
+
+    .heroSection {
+        padding: 8em 16px 4em;
+    }
+
+    .pageBoldHeading {
+        font-size: 3.4em;
+        line-height: 70px;
+        letter-spacing: 6px;
+    }
+
+    .headingDescription {
+        width: auto;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .headingDescription span {
+        display: none;
+    }
+
+    .amenitiesSection {
+        padding: 1em 16px 3.8em;
+    }
+
+    .amenitiesText {
+        font-size: 38px;
+    }
+
+    .amenitiesDesc {
+        font-size: 16px;
+    }
+
+    .amenitiesDesc span {
+        display: none;
+    }
+
+    .amenitiesHead {
+        padding-bottom: 4em;
+    }
+
+    .topAmenities {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        padding-bottom: 2em;
+    }
+
+    .bottomAmenities {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10em;
+        width: auto;
+        grid-row-gap: 2em;
+    }
+
+    .amenitiesbox {
+        width: auto;
+    }
+
+    .amenities_icon {
+        padding-bottom: 8px;
+        width: 60px;
+    }
+
+    .amenitiesTitle_desc {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .amenitiesTitle {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .quoteText {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .quoteSection {
+        padding: 0px 15px;
+    }
+
+    .aboutSection {
+        padding: 2em 16px;
+        flex-direction: column;
+    }
+
+    .aboutTitle {
+        margin: 15px 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .aboutLeft,
+    .aboutRight,
+    .benefitsLeft,
+    .benefitsRight {
+        width: 100%;
+    }
+
+    .aboutTextContent {
+        font-size: 15px;
+    }
+
+    .benefitsSection {
+        padding: 2em 16px;
+        flex-direction: column-reverse;
+    }
+
+    .benefitsHeading {
+        font-size: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .benefitsTitle {
+        font-size: 20px;
+    }
+
+    .benefits {
+        margin-bottom: 2em;
+        align-items: flex-start;
+    }
+
+    .benefitsDesc {
+        font-size: 16px;
+    }
+
+}
